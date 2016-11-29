@@ -105,7 +105,7 @@ object CharPredicate {
   val Visible = CharPredicate('\u0021' to '\u007e')
   val Printable = Visible ++ ' '
 
-  val HttpToken = AlphaNum ++ "!#$%&\'*+-.^_`|~"
+  val HttpToken = AlphaNum ++ ":!#$%&\'*+-.^_`|~"
 
   ///////////////////////// PRIVATE ////////////////////////////
 
